@@ -1,1 +1,0 @@
-cmd_/home/ulikik/Modules/Proc/proc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/ulikik/Modules/Proc/proc.ko /home/ulikik/Modules/Proc/proc.o /home/ulikik/Modules/Proc/proc.mod.o;  true
