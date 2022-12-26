@@ -1,1 +1,0 @@
-cmd_/home/ulikik/Modules/Chardev/Module.symvers := sed 's/\.ko$$/\.o/' /home/ulikik/Modules/Chardev/modules.order | scripts/mod/modpost -m -a  -o /home/ulikik/Modules/Chardev/Module.symvers -e -i Module.symvers   -T -
