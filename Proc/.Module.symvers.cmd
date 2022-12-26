@@ -1,1 +1,0 @@
-cmd_/home/ulikik/Modules/Proc/Module.symvers := sed 's/\.ko$$/\.o/' /home/ulikik/Modules/Proc/modules.order | scripts/mod/modpost -m -a  -o /home/ulikik/Modules/Proc/Module.symvers -e -i Module.symvers   -T -
