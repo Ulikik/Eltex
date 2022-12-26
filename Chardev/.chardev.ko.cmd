@@ -1,0 +1,1 @@
+cmd_/home/ulikik/Modules/Chardev/chardev.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/ulikik/Modules/Chardev/chardev.ko /home/ulikik/Modules/Chardev/chardev.o /home/ulikik/Modules/Chardev/chardev.mod.o;  true

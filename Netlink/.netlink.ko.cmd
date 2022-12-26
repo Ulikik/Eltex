@@ -1,0 +1,1 @@
+cmd_/home/ulikik/Modules/Netlink/netlink.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/ulikik/Modules/Netlink/netlink.ko /home/ulikik/Modules/Netlink/netlink.o /home/ulikik/Modules/Netlink/netlink.mod.o;  true
